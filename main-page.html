@@ -1,0 +1,109 @@
+<!DOCTYPE html5>
+<html>
+  <header lang="en">
+    <meta charset="utf-8" />
+    <title>
+      Human Body
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </header>
+  <body>
+    <center>
+      <nav class="navbar navbar-expand-sm navbar-light justify-content-center ">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./main-page.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./brain.html">The Brain</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./lungs.html">The Lungs</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./heart.html">The Heart</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./quiz.html">Quiz</a>
+          </li>
+        </ul>
+      </nav>
+    </center>
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="250,230,360,350"
+        alt="heart"
+        href="heart.html"
+      />
+      <area
+        shape="rect"
+        coords="170,220,360,460"
+        alt="heart"
+        href="lungs.html"
+      />
+      <area shape="rect" coords="175,2,350,200" alt="head" href="brain.html" />
+    </map>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="container">
+            <h1>About</h1>
+            <p>
+              The human body is a complex system. But don't worry we are here to
+              help! You will learn some fun facts about the brain, heart and
+              lungs... have fun exploring!
+            </p>
+          </div>
+        </div>
+
+        <div class="media flex-column col-sm-4">
+          <figure>
+            <img src="skeleton.png" alt="Skeleton" usemap="#workmap" />
+          </figure>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="container moveMore">
+            <h1>Did you know..</h1>
+            <p>Fun facts:</p>
+            <ul>
+              <li>
+                Laid end to end, an adult’s blood vessels could circle Earth’s
+                equator four times!
+              </li>
+
+              <li>
+                It takes the body around 12 hours to completely digest eaten
+                food.
+              </li>
+              <li>
+                The smallest bone found in the human body is located in the
+                middle ear. The staples (or stirrup) bone is only 2.8
+                millimetres long.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
